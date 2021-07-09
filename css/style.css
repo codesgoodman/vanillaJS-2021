@@ -6,6 +6,9 @@ body {
 .hidden {
   display: none;
 }
+#login-form {
+  text-align: center;
+}
 
 #clock {
   text-align: center;
