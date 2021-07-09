@@ -9,6 +9,12 @@ body {
 #login-form {
   text-align: center;
 }
+#login-form input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
 
 #clock {
   text-align: center;
