@@ -1,0 +1,63 @@
+body {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hidden {
+  display: none;
+}
+
+#clock {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 200px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#todo-form {
+  text-align: center;
+}
+#todo-form input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+::placeholder {
+  color: white;
+}
+#greeting {
+  text-align: center;
+}
+#quote {
+  text-align: center;
+}
+#weather {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#todo-list {
+  list-style: none;
+  text-align: center;
+}
+button {
+  background: transparent;
+  border: none;
+}
